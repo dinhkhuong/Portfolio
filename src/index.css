@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+      
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*background splited into 2 parts, one with the content and the other, at the bottom,would disappear if content is long enough. 
+add element to cover the rest of #background color */
+html {
+    width: 100%;
+     height: 100%;
+     background-color: #98c1d9;
+     background-size:contain;
 }
