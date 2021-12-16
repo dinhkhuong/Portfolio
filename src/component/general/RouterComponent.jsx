@@ -5,6 +5,7 @@ import Works from './Works'
 import Skills from './Skills'
 import Header from '../header_footer/Header'
 import Footer from '../header_footer/Footer'
+import Contact from './Contact'
 
 
 const RouterComponent = () => {
@@ -23,6 +24,7 @@ const RouterComponent = () => {
                         <Route path="/" element={<Home/>} />
                         <Route path="/works" element={<Works/>} />
                         <Route path="/skills" element={<Skills/>} />
+                        <Route path="/contact" element={<Contact/>} />
                         
                     </Routes>
                     <br/> 

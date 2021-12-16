@@ -11,7 +11,7 @@ const App = () => {
   return (
       
         // App in CSS
-      <div className="App"  >
+      <div className="App font-link"  >
         <RouterComponent/> 
       </div>   
       

@@ -10,12 +10,10 @@ const Home = () => {
         <div className="col-9">
           <h1>
             <p>Hi,</p>
-            <p>I am Khuong</p>
-            <p>Software developer</p>
+            <p>My name is Khuong</p>
+            <p>A Software developer</p>
           </h1>
-          <Link to="works">
-            <button>More Info</button>
-          </Link>
+          
         </div>
         
         <div class="col">
@@ -24,7 +22,10 @@ const Home = () => {
         </div>
           
       </div>
-      
+      <br/>
+      <div className="row">
+      Outstanding enthusiastic team player who seeks to advance in computer academic, commercial, skills and customer service both in skills, knowledge and career opportunities.
+      </div>
     </div>
   );
 }

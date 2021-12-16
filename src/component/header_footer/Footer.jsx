@@ -4,8 +4,8 @@ const Footer = () => {
         <div  className="bottom">
             <footer >
                 
-                    <nav className=" navbar navbar-expand-xl navbar-dark bg-primary rounded-bottom">
-                        <div className="p-1" >
+                    <nav className="navbar navbar-expand-xl navbar-dark bg-primary rounded-bottom">
+                        <div>
                             
                             <a className="p-1"
                                 href="https://www.linkedin.com/in/lieukhuong/"
@@ -17,7 +17,7 @@ const Footer = () => {
                                 />
                             </a>
 
-                            <a className="p-1"
+                            <a 
                                 href="https://github.com/dinhkhuong"
                                 
                             >
